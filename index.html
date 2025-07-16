@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoopTech Merah Putih - Koperasi Digital Desa Peron</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #d90000;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #f0f0f0;
+      padding: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #d90000;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .product-grid, .tour-grid, .story-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      background-color: #fff;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin: 0.5rem 0 0.2rem;
+      color: #d90000;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #d90000;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CoopTech Merah Putih</h1>
+    <p>Koperasi Digital Desa Peron</p>
+  </header>
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#umkm">UMKM</a>
+    <a href="#wisata">Wisata</a>
+    <a href="#cerita">Cerita Sukses</a>
+  </nav>
+
+  <section id="beranda">
+    <h2>Selamat Datang di CoopTech Merah Putih</h2>
+    <p>Koperasi digital yang memberdayakan potensi ekonomi Desa Peron melalui teknologi dan semangat gotong royong. Temukan layanan terbaik, produk unggulan, dan wisata lokal yang memikat.</p>
+  </section>
+
+  <section id="umkm">
+    <h2>Produk UMKM Unggulan</h2>
+    <div class="product-grid">
+      <div class="card">
+        <img src="produk1.jpg" alt="Produk 1" />
+        <h3>Kopi Desa</h3>
+        <p>Harga: Rp25.000</p>
+      </div>
+      <div class="card">
+        <img src="produk2.jpg" alt="Produk 2" />
+        <h3>Keripik Pisang</h3>
+        <p>Harga: Rp10.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="wisata">
+    <h2>Paket Wisata Desa</h2>
+    <div class="tour-grid">
+      <div class="card">
+        <img src="tur.jpg" alt="Tur Pertanian" />
+        <h3>Tur Pertanian</h3>
+        <p>Harga: Rp15.000</p>
+      </div>
+      <div class="card">
+        <img src="curug.jpg" alt="Trekking ke Curug" />
+        <h3>Trekking ke Curug</h3>
+        <p>Harga: Rp15.000</p>
+      </div>
+      <div class="card">
+        <img src="kerajinan.jpg" alt="Lokakarya Kerajinan" />
+        <h3>Lokakarya Kerajinan</h3>
+        <p>Harga: Rp15.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cerita">
+    <h2>Cerita Sukses</h2>
+    <div class="story-grid">
+      <div class="card">
+        <img src="pelaku1.jpg" alt="Pelaku UMKM" />
+        <h3>Siti - Pengusaha Kopi</h3>
+        <p>“Setelah bergabung dengan CoopTech, omzet saya naik tiga kali lipat!”</p>
+      </div>
+      <div class="card">
+        <img src="pelaku2.jpg" alt="Pemuda Desa" />
+        <h3>Deni - Pemandu Wisata</h3>
+        <p>“Wisata desa kini jadi sumber penghasilan utama saya.”</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 CoopTech Merah Putih - Koperasi Digital Desa Peron
+  </footer>
+</body>
+</html>
